@@ -1,0 +1,32 @@
+/* Navbar oscuro */
+.bg-black {
+  background-color: #000000 !important; /* negro */
+}
+
+/* Footer */
+footer {
+  background-color: #1c1c1c;
+  color: #010101f0;
+}
+
+/* Botones principales */
+.btn-primary {
+  background-color: #0d6efd; /* azul */
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #084298;
+  border-color: #084298;
+}
+
+/* Tarjetas de producto */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.card-header {
+  background-color: #f8f9fa; /* gris claro */
+  font-weight: bold;
+}
