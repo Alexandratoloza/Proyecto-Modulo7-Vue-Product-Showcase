@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "cypress run",
     "test:e2e:headed": "cypress open",
@@ -36,6 +37,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-vue": "^7.20.0",
+    "gh-pages": "^6.3.0",
     "jest": "^27.5.1"
   },
   "eslintConfig": {

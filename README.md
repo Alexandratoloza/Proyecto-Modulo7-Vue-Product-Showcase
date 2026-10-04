@@ -1,9 +1,6 @@
-# vue-product-showcase
-Falta modificar los stylos en el 
-ProducList
-ProducCart
-Footeer 
-mejorar los botones 
+## 🛍️ Vue Product Showcase
+Aplicación web que simula una tienda de productos desarrollada con Vue3, 
+La app Permite visualizar Productos, buscarlos, añadir al carro y simula una compra.
 ## Project setup
 ```
 npm install
@@ -28,14 +25,30 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Estructura del proyecto: 
-src/
- ├─ assets/        # imágenes, estilos globales
- ├─ components/    # componentes reutilizables
- │   ├─ Header.vue
- │   ├─ Footer.vue
- │   ├─ ProductCard.vue
- │   └─ ProductList.vue
- ├─ store/         # Vuex (lo usarás en Lección 3)
- │   └─ index.js
- ├─ App.vue        # raíz de la aplicación
- └─ main.js        # punto de entrada
+vue-product-showcase/
+├── cypress/
+│   ├── e2e/
+│    └── product-list.cy.js
+│
+├── public/
+│   └── products.json
+│
+├── src/
+│   components/
+│   │   ├── AppFooter.vue
+│   │   ├── AppHeader.vue
+│   │   ├── ProductCard.vue
+│   │   ├── ProductCart.vue
+│   │   └── ProductList.vue
+│   │
+│   ├── App.vue
+│   └── main.js
+│
+├── tests/
+│   │
+│   └── unit/
+│       └── example.spec.js
+│
+├── jest.config.js
+├── package.json
+└── README.md
