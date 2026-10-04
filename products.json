@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Pro",
+    "description": "Potente laptop para trabajo y estudio",
+    "price": 1200,
+    "category": "Computadores",
+    "image": "./img/laptop1.png"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone X",
+    "description": "Teléfono inteligente con cámara avanzada",
+    "price": 800,
+    "category": "Celulares",
+    "image": "./img/smartphone1.png"
+  },
+  {
+    "id": 3,
+    "name": "Auriculares Inalámbricos",
+    "description": "Sonido envolvente y batería de larga duración",
+    "price": 150,
+    "category": "Accesorios",
+    "image": "./img/auriculares1.png"
+  },
+  { "id": 4,
+    "name": "Laptop ProMax",
+    "description": "Potente laptop para trabajo y estudio",
+    "price": 1800,
+    "category": "Computadores",
+    "image": "./img/laptop2.png"
+  },
+  {
+    "id": 5,
+    "name": "Smartphone X1",
+    "description": "Teléfono inteligente con cámara avanzada",
+    "price": 200,
+    "category": "Celulares",
+    "image": "./img/smartphone2.png"
+  },
+  {
+    "id": 6,
+    "name": "Auriculares Inalámbricos Pro",
+    "description": "Sonido envolvente y batería de larga duración",
+    "price": 350,
+    "category": "Accesorios",
+    "image": "./img/auriculares.png"
+  },
+  { "id": 7,
+    "name": "Laptop ProMax",
+    "description": "Potente laptop para trabajo y estudio",
+    "price": 2800,
+    "category": "Computadores",
+    "image": "./img/laptop3.png"
+  },
+  {
+    "id": 8,
+    "name": "Smartphone X12",
+    "description": "Teléfono inteligente con cámara avanzada",
+    "price": 2890,
+    "category": "Celulares",
+    "image": "./img/smartphone3.png"
+  }
+]
