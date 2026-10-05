@@ -1,40 +1,60 @@
-## 🛍️ Vue Product Showcase
-Aplicación web que simula una tienda de productos desarrollada con Vue3, 
-La app Permite visualizar Productos, buscarlos, añadir al carro y simula una compra.
-## Project setup
-```
-npm install
-```
+# 🛍️ Vue Product Showcase
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Aplicación web desarrollada con **Vue Cli** que simula una tienda de productos.  
+Permite visualizar productos, buscarlos, añadirlos al carrito y simular una compra.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+---
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 📌 Repositorio y despliegue
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Repositorio: [Proyecto-Modulo7-Vue-Product-Showcase](https://github.com/Alexandratoloza/Proyecto-Modulo7-Vue-Product-Showcase/tree/gh-pages)  
+- GitHub Pages: [https://alexandratoloza.github.io/Proyecto-Modulo7-Vue-Product-Showcase/](https://alexandratoloza.github.io/Proyecto-Modulo7-Vue-Product-Showcase/)
 
-### Estructura del proyecto: 
+---
+
+## 🚀 Requisitos previos
+
+- Node.js (versión 16 o superior recomendada)
+- npm (incluido con Node.js)
+- Git
+
+---
+
+## 📦 Instalación y ejecución en local
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/Alexandratoloza/Proyecto-Modulo7-Vue-Product-Showcase.git
+   cd Proyecto-Modulo7-Vue-Product-Showcase
+
+## Instalar dependencias:  
+    npm install
+
+## Levantar el servidor de desarrollo:
+    npm run serve
+
+## La aplicación estará disponible en: 
+    http://localhost:8080
+
+# EN ESTE PROYECTO SE EJECUTAN DOS TIPOS DE PRUEBAS, PRUEBAS UNITARIAS Y E2E 
+## Pruebas unitarias con Jest
+
+    npm run test:unit
+## Pruebas end-to-end con Cypress (modo headless)
+
+    npm run test:e2e
+
+## Estructura del proyecto
 vue-product-showcase/
 ├── cypress/
-│   ├── e2e/
-│    └── product-list.cy.js
+│   └── e2e/
+│       └── product-list.cy.js
 │
 ├── public/
 │   └── products.json
 │
 ├── src/
-│   components/
+│   ├── components/
 │   │   ├── AppFooter.vue
 │   │   ├── AppHeader.vue
 │   │   ├── ProductCard.vue
@@ -45,7 +65,6 @@ vue-product-showcase/
 │   └── main.js
 │
 ├── tests/
-│   │
 │   └── unit/
 │       └── example.spec.js
 │
