@@ -39,7 +39,7 @@ export default createStore({
     async fetchProducts ({ commit }) {
       commit('setLoading', true)
       try {
-        const response = await axios.get('/products.json')
+        const response = await axios.get(process.env.BASE_URL + 'products.json')
         commit('setProducts', response.data)
       } catch (err) {
         commit('setError', err.message)
